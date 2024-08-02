@@ -1,10 +1,8 @@
 import java.io.*;
 import java.net.*;
-import java.util.Random;
 
 public class Server {
     public static void main(String[] args) {
-        Random random = new Random();
         int port = 4000;
 
         System.out.println("Server listening on port: " + port);
