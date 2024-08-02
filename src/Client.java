@@ -12,7 +12,7 @@ public class Client {
              BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
 
-            System.out.println("Connected to server");
+            System.out.println("Connection Established Successfully");
 
             out.println("HELLO");
             System.out.println("Sent to server: HELLO");

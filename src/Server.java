@@ -5,7 +5,7 @@ public class Server {
     public static void main(String[] args) {
         int port = 4000;
 
-        System.out.println("Server listening on port: " + port);
+        System.out.println("Server is listening on port: " + port);
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             while (true) {
